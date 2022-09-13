@@ -117,7 +117,7 @@ app.route("/articles/:reqArticle")
       }
      }
     )
-  })
+  });
 
 app.listen(3000, () => {
   console.log("server started on port 3000");
